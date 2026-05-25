@@ -24,7 +24,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Parse command line arguments
-parser = argparse.ArgumentParser(description='LibreCrawl - SEO Spider Tool')
+parser = argparse.ArgumentParser(description='SEOPrenor Crawl - SEO Spider Tool')
 parser.add_argument('--local', '-l', action='store_true',
                     help='Run in local mode (all users get admin tier, no rate limits)')
 parser.add_argument('--disable-register', '-dr', action='store_true',
